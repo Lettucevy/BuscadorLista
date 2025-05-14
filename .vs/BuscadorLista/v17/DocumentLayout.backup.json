@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lettuce\\source\\repos\\BuscadorLista\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Users\\Lettuce\\source\\repos\\BuscadorLista\\App.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:App.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 185,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.c",
+              "DocumentMoniker": "C:\\Users\\Lettuce\\source\\repos\\BuscadorLista\\App.c",
+              "RelativeDocumentMoniker": "App.c",
+              "ToolTip": "C:\\Users\\Lettuce\\source\\repos\\BuscadorLista\\App.c",
+              "RelativeToolTip": "App.c",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAGoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-14T02:25:42.466Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
