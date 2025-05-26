@@ -24,12 +24,15 @@
     <ClInclude Include="Resource.h">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
-    <ClInclude Include="BuscadorLista.h">
+    <ClInclude Include="PalavraManager.h">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="App.c">
+    <ClCompile Include="main.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PalavraManager.c">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
   </ItemGroup>

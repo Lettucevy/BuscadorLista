@@ -1,30 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lettuce\\source\\repos\\BuscadorLista\\",
+  "WorkspaceRootPath": "C:\\Projetos\\GitHub\\BuscadorLista\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Users\\Lettuce\\source\\repos\\BuscadorLista\\App.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:App.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Projetos\\GitHub\\BuscadorLista\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:PalavraManager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:PalavraManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Projetos\\GitHub\\BuscadorLista\\BuscadorLista.rc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:BuscadorLista.rc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Projetos\\GitHub\\BuscadorLista\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 185,
+      "VerticalTabListWidth": 164,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BuscadorLista.rc",
+              "DocumentMoniker": "C:\\Projetos\\GitHub\\BuscadorLista\\BuscadorLista.rc",
+              "RelativeDocumentMoniker": "BuscadorLista.rc",
+              "ToolTip": "C:\\Projetos\\GitHub\\BuscadorLista\\BuscadorLista.rc",
+              "RelativeToolTip": "BuscadorLista.rc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-26T17:15:39.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PalavraManager.h",
+              "DocumentMoniker": "C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.h",
+              "RelativeDocumentMoniker": "PalavraManager.h",
+              "ToolTip": "C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.h",
+              "RelativeToolTip": "PalavraManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-26T14:51:25.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Resource.h",
+              "DocumentMoniker": "C:\\Projetos\\GitHub\\BuscadorLista\\Resource.h",
+              "RelativeDocumentMoniker": "Resource.h",
+              "ToolTip": "C:\\Projetos\\GitHub\\BuscadorLista\\Resource.h",
+              "RelativeToolTip": "Resource.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-26T14:50:03.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PalavraManager.c",
+              "DocumentMoniker": "C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.c",
+              "RelativeDocumentMoniker": "PalavraManager.c",
+              "ToolTip": "C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.c",
+              "RelativeToolTip": "PalavraManager.c",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-26T14:49:46.202Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.c",
-              "DocumentMoniker": "C:\\Users\\Lettuce\\source\\repos\\BuscadorLista\\App.c",
-              "RelativeDocumentMoniker": "App.c",
-              "ToolTip": "C:\\Users\\Lettuce\\source\\repos\\BuscadorLista\\App.c",
-              "RelativeToolTip": "App.c",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAGoAAAApAAAAAAAAAA==",
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Projetos\\GitHub\\BuscadorLista\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Projetos\\GitHub\\BuscadorLista\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-14T02:25:42.466Z",
               "EditorCaption": ""

@@ -1,7 +1,4 @@
 //{{NO_DEPENDENCIES}}
-// Arquivo de inclusão gerado pelo Microsoft Visual C++.
-// Utilizado por BuscadorLista.rc
-
 #define IDS_APP_TITLE			103
 
 #define IDR_MAINFRAME			128
@@ -16,8 +13,7 @@
 #ifndef IDC_STATIC
 #define IDC_STATIC				-1
 #endif
-// Próximos valores padrão para novos objetos
-//
+
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 
@@ -28,3 +24,19 @@
 #define _APS_NEXT_SYMED_VALUE		110
 #endif
 #endif
+
+// Cabeçalho do programa
+
+#ifndef RESOURCE_H
+#define RESOURCE_H
+
+#define ID_EDIT            1
+#define ID_ADD             2
+#define ID_SORT            3
+#define ID_SEARCH_LINEAR   4
+#define ID_SEARCH_BINARY   5
+#define ID_CLEAR           6
+#define ID_LISTBOX         7
+
+#endif
+
