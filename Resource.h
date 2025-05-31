@@ -1,6 +1,19 @@
 //{{NO_DEPENDENCIES}}
-#define IDS_APP_TITLE			103
+#ifndef RESOURCE_H
+#define RESOURCE_H
 
+// IDs para os controles
+#define IDC_STATIC_TITLE    1001 // Novo para o título "Lista de Palavras 3000"
+#define ID_EDIT             1002
+#define ID_LISTBOX          1003
+#define ID_ADD              1004
+#define ID_SORT             1005
+#define ID_SEARCH_LINEAR    1006
+#define ID_SEARCH_BINARY    1007
+#define ID_CLEAR            1008
+
+// Outras constantes de recurso (geralmente para ícones, menus, etc.)
+#define IDS_APP_TITLE			103
 #define IDR_MAINFRAME			128
 #define IDD_BUSCADORLISTA_DIALOG	102
 #define IDD_ABOUTBOX			103
@@ -13,6 +26,10 @@
 #ifndef IDC_STATIC
 #define IDC_STATIC				-1
 #endif
+
+// Removidas definições duplicadas e conflitantes
+
+#endif // RESOURCE_H
 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
