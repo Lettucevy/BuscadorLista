@@ -3,7 +3,7 @@
 #define RESOURCE_H
 
 // IDs para os controles
-#define IDC_STATIC_TITLE    1001 // Novo para o título "Lista de Palavras 3000"
+#define IDC_STATIC_TITLE    1001
 #define ID_EDIT             1002
 #define ID_LISTBOX          1003
 #define ID_ADD              1004
@@ -11,10 +11,29 @@
 #define ID_SEARCH_LINEAR    1006
 #define ID_SEARCH_BINARY    1007
 #define ID_CLEAR            1008
+#define IDC_CONSOLE_EDIT    1009
+
+#define ID_COPY             1010
+#define ID_REMOVE           1011
+#define ID_NEW_LIST         1012
+#define ID_OPEN_LIST        1013
+#define ID_SAVE_LIST        1014
+#define ID_EXPORT_LIST      1015
+#define ID_LIST_OF_LISTS    1016
+#define ID_CLOSE_LIST       1017
+
+
+#define IDD_NEW_LIST_DIALOG     10100
+#define IDC_NEW_LIST_NAME_EDIT          1018
+
+
+
+
 
 // Outras constantes de recurso (geralmente para ícones, menus, etc.)
 #define IDS_APP_TITLE			103
 #define IDR_MAINFRAME			128
+#define IDM_EXPORT              106
 #define IDD_BUSCADORLISTA_DIALOG	102
 #define IDD_ABOUTBOX			103
 #define IDM_ABOUT				104
@@ -40,20 +59,5 @@
 #define _APS_NEXT_CONTROL_VALUE		1000
 #define _APS_NEXT_SYMED_VALUE		110
 #endif
-#endif
-
-// Cabeçalho do programa
-
-#ifndef RESOURCE_H
-#define RESOURCE_H
-
-#define ID_EDIT            1
-#define ID_ADD             2
-#define ID_SORT            3
-#define ID_SEARCH_LINEAR   4
-#define ID_SEARCH_BINARY   5
-#define ID_CLEAR           6
-#define ID_LISTBOX         7
-
 #endif
 

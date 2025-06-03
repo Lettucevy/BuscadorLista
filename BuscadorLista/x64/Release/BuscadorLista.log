@@ -1,7 +1,17 @@
 ﻿  main.c
-  PalavraManager.c
+C:\Projetos\GitHub\BuscadorLista\main.c(13,9): warning C4005: 'COLOR_BACKGROUND': redefinição de macro
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9578,9):
+      ver a definição anterior de "COLOR_BACKGROUND"
+  
+C:\Projetos\GitHub\BuscadorLista\main.c(611,23): warning C4244: 'inicializando': conversão de 'LRESULT' para 'int', possível perda de dados
+C:\Projetos\GitHub\BuscadorLista\main.c(613,27): warning C4244: 'inicializando': conversão de 'LRESULT' para 'int', possível perda de dados
+C:\Projetos\GitHub\BuscadorLista\main.c(652,23): warning C4244: 'inicializando': conversão de 'LRESULT' para 'int', possível perda de dados
+C:\Projetos\GitHub\BuscadorLista\main.c(781,23): warning C4244: 'inicializando': conversão de 'LRESULT' para 'int', possível perda de dados
+C:\Projetos\GitHub\BuscadorLista\main.c(816,37): warning C4244: 'inicializando': conversão de 'LRESULT' para 'int', possível perda de dados
+C:\Projetos\GitHub\BuscadorLista\main.c(1015,27): warning C4244: 'inicializando': conversão de 'LRESULT' para 'int', possível perda de dados
   Gerando código
-  Previous IPDB not found, fall back to full compilation.
-  All 13 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+C:\Projetos\GitHub\BuscadorLista\main.c(1049): warning C4715: 'WindowProc': nem todos os caminhos de controle retornam um valor
+  All 37 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finalizada a geração de código
-  BuscadorLista.vcxproj -> C:\Users\Lettuce\source\repos\BuscadorLista\x64\Release\BuscadorLista.exe
+  BuscadorLista.vcxproj -> C:\Projetos\GitHub\BuscadorLista\x64\Release\BuscadorLista.exe

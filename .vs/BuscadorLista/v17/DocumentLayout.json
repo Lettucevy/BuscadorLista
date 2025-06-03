@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Projetos\\GitHub\\BuscadorLista\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:PalavraManager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:PalavraManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Projetos\\GitHub\\BuscadorLista\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,22 +19,18 @@
       "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:PalavraManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:PalavraManager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|C:\\Projetos\\GitHub\\BuscadorLista\\BuscadorLista.rc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5673AEF-2587-4660-B84F-B347D44008F1}|BuscadorLista.vcxproj|solutionrelative:BuscadorLista.rc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 159,
+      "VerticalTabListWidth": 124,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 346,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Projetos\\GitHub\\BuscadorLista\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Projetos\\GitHub\\BuscadorLista\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AgIAAPYBAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-06-03T16:36:51.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BuscadorLista.rc",
+              "DocumentMoniker": "C:\\Projetos\\GitHub\\BuscadorLista\\BuscadorLista.rc",
+              "RelativeDocumentMoniker": "BuscadorLista.rc",
+              "ToolTip": "C:\\Projetos\\GitHub\\BuscadorLista\\BuscadorLista.rc",
+              "RelativeToolTip": "BuscadorLista.rc",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-02T22:08:37.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Resource.h",
               "DocumentMoniker": "C:\\Projetos\\GitHub\\BuscadorLista\\Resource.h",
               "RelativeDocumentMoniker": "Resource.h",
               "ToolTip": "C:\\Projetos\\GitHub\\BuscadorLista\\Resource.h",
               "RelativeToolTip": "Resource.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-30T23:44:16.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PalavraManager.h",
               "DocumentMoniker": "C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.h",
               "RelativeDocumentMoniker": "PalavraManager.h",
               "ToolTip": "C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.h",
               "RelativeToolTip": "PalavraManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-26T14:51:25.419Z"
+              "WhenOpened": "2025-05-26T14:51:25.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PalavraManager.c",
               "DocumentMoniker": "C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.c",
               "RelativeDocumentMoniker": "PalavraManager.c",
               "ToolTip": "C:\\Projetos\\GitHub\\BuscadorLista\\PalavraManager.c",
               "RelativeToolTip": "PalavraManager.c",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAqwGsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-26T14:49:46.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.c",
-              "DocumentMoniker": "C:\\Projetos\\GitHub\\BuscadorLista\\main.c",
-              "RelativeDocumentMoniker": "main.c",
-              "ToolTip": "C:\\Projetos\\GitHub\\BuscadorLista\\main.c",
-              "RelativeToolTip": "main.c",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAGgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-14T02:25:42.466Z",
+              "WhenOpened": "2025-05-26T14:49:46.202Z",
               "EditorCaption": ""
             }
           ]
