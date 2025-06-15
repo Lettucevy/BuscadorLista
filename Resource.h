@@ -22,12 +22,8 @@
 #define ID_LIST_OF_LISTS    1016
 #define ID_CLOSE_LIST       1017
 
-
 #define IDD_NEW_LIST_DIALOG     10100
 #define IDC_NEW_LIST_NAME_EDIT          1018
-
-
-
 
 
 // Outras constantes de recurso (geralmente para ícones, menus, etc.)

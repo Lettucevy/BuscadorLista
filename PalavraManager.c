@@ -7,20 +7,20 @@
 
 // Estrutura de dados PalavraManager (lista de palavras)
 struct PalavraManager {
-    wchar_t** palavras;
+	wchar_t** palavras; // Array de palavras
     int count; // Quantidade de palavras na lista
     int capacity; // Capacidade
     int ordenado; // 0 se não ordenado, 1 se ordenado
 };
 
-// Funções para PalavraManager
+// Funções para criar a lista
 PalavraManager* CriarLista() {
-    PalavraManager* pm = (PalavraManager*)malloc(sizeof(PalavraManager));
-    if (!pm) return NULL;
-    pm->count = 0;
-    pm->capacity = 10;
-    pm->ordenado = 0;
-    pm->palavras = (wchar_t**)malloc(sizeof(wchar_t*) * pm->capacity);
+    PalavraManager* pm = (PalavraManager*)malloc(sizeof(PalavraManager)); // criação do malloc para lista
+	if (!pm) return NULL; // retorna se não conseguiu alocar memória
+    pm->count = 0; // iniciar a Quantidade pra 0
+	pm->capacity = 10; // capacidade inicial de 10 palavras
+	pm->ordenado = 0; // não ordenado inicialmente
+	pm->palavras = (wchar_t**)malloc(sizeof(wchar_t*) * pm->capacity); // aloca memória para as palavras passando a capacidade da lista
     if (!pm->palavras) {
         free(pm);
         return NULL;
@@ -40,48 +40,53 @@ void DestruirLista(PalavraManager* pm) {
 
 // Preciso comentar essa funções ou ta dificil?
 void AdicionarNaLista(PalavraManager* pm, const wchar_t* palavra) {
-    if (pm->count >= pm->capacity) {
-        pm->capacity *= 2;
-        pm->palavras = (wchar_t**)realloc(pm->palavras, sizeof(wchar_t*) * pm->capacity);
+	if (pm->count >= pm->capacity) { // verifica se a lista está cheia
+		pm->capacity *= 2; // dobra a capacidade da lista se estiver cheia
+		pm->palavras = (wchar_t**)realloc(pm->palavras, sizeof(wchar_t*) * pm->capacity); // realoca a memória para aumentar a capacidade
         if (!pm->palavras) return;
     }
 
-    pm->palavras[pm->count] = (wchar_t*)malloc(sizeof(wchar_t) * (wcslen(palavra) + 1));
+	pm->palavras[pm->count] = (wchar_t*)malloc(sizeof(wchar_t) * (wcslen(palavra) + 1)); // aloca memória para a nova palavra
     if (!pm->palavras[pm->count]) return;
     wcscpy_s(pm->palavras[pm->count], wcslen(palavra) + 1, palavra);
-    pm->count++;
-    pm->ordenado = 0;
+	pm->count++; // incrementa a contagem de palavras
+	pm->ordenado = 0; // marca como não ordenado
 }
 
 int ListaTamanho(PalavraManager* pm) {
     return pm->count;
 }
 
+// Retorna a palavra na posição index da lista, ou NULL se o índice for inválido
 const wchar_t* ListaGet(PalavraManager* pm, int index) {
     if (index < 0 || index >= pm->count) return NULL;
-    return pm->palavras[index];
+	return pm->palavras[index]; // retorna a palavra na posição index
 }
 
+// Função de comparação para qsort
 int Compare(const void* a, const void* b) {
     const wchar_t* pa = *(const wchar_t**)a;
     const wchar_t* pb = *(const wchar_t**)b;
-    return wcscmp(pa, pb);
+    return wcscmp(pa, pb); 
 }
 
+// Ordena a lista de palavras usando qsort
 void ListaSort(PalavraManager* pm) {
     qsort(pm->palavras, pm->count, sizeof(wchar_t*), Compare);
     pm->ordenado = 1;
 }
 
+// Busca linear na lista de palavras
 int ListaBuscaLinear(PalavraManager* pm, const wchar_t* palavra) {
     for (int i = 0; i < pm->count; i++) {
         if (wcscmp(pm->palavras[i], palavra) == 0) {
-            return i;
+            return i; 
         }
     }
     return -1;
 }
 
+// Busca binária na lista de palavras (assumindo que a lista está ordenada)
 int ListaBuscaBinaria(PalavraManager* pm, const wchar_t* palavra) {
     if (!pm->ordenado) return -2;
 
@@ -90,7 +95,7 @@ int ListaBuscaBinaria(PalavraManager* pm, const wchar_t* palavra) {
 
     while (left <= right) {
         int mid = (left + right) / 2;
-        int cmp = wcscmp(palavra, pm->palavras[mid]);
+		int cmp = wcscmp(palavra, pm->palavras[mid]); // compara a palavra com a do meio
 
         if (cmp == 0) return mid;
         if (cmp < 0) right = mid - 1;
@@ -100,6 +105,7 @@ int ListaBuscaBinaria(PalavraManager* pm, const wchar_t* palavra) {
     return -1;
 }
 
+// Limpa a lista de palavras, liberando memória e resetando o contador
 void LimparLista(PalavraManager* pm) {
     for (int i = 0; i < pm->count; i++) {
         free(pm->palavras[i]);
@@ -108,27 +114,29 @@ void LimparLista(PalavraManager* pm) {
     pm->ordenado = 0;
 }
 
+// Remove uma palavra da lista pelo índice, liberando a memória alocada
 void RemoverPalavra(PalavraManager* pm, int index) {
     if (index < 0 || index >= pm->count) return;
 
     free(pm->palavras[index]);
 
-    for (int i = index; i < pm->count - 1; i++) {
-        pm->palavras[i] = pm->palavras[i + 1];
+	for (int i = index; i < pm->count - 1; i++) { // move as palavras para preencher o espaço vazio
+		pm->palavras[i] = pm->palavras[i + 1]; // copia a palavra seguinte para a posição atual
     }
-    pm->count--;
-    pm->ordenado = 0;
+	pm->count--; // decrementa a quantidade de palavras
+	pm->ordenado = 0; // marca como não ordenado após remoção
 }
 
-// Funções para ListaManager (gerenciador de listas abertas)
+// Funções para ListaManager (gerenciador de listas abertas) cria o gerenciador de listas abertas
 ListaManager* CriarListaManager() {
-    ListaManager* lm = (ListaManager*)malloc(sizeof(ListaManager));
-    if (!lm) return NULL;
-    lm->count = 0;
-    lm->currentListIndex = -1;
+	ListaManager* lm = (ListaManager*)malloc(sizeof(ListaManager)); // Aloca memoria para o gerenciador de listas abertas
+	if (!lm) return NULL;   // verifica se a alocação foi bem-sucedida
+	lm->count = 0; // Inicializa a contagem de listas abertas
+	lm->currentListIndex = -1; // Nenhuma lista aberta inicialmente
     return lm;
 }
 
+// Destrói o gerenciador de listas abertas, liberando memória alocada para cada PalavraManager
 void DestruirListaManager(ListaManager* lm) {
     if (!lm) return;
     for (int i = 0; i < lm->count; i++) {
